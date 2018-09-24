@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #008fbe;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.display-count, .pager {
+    display: inline-block;
+}
+
+.pager {
+    position: absolute;
+    right: 0px;
+}
+
+.page-link {
+    padding: 3px;
+    cursor: pointer;
+    color: blue;
+}
+
+.page-link:hover {
+    color: purple;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.sort-symbol {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.table-container {
+    display: inline-block;
+    position: relative;
+}
